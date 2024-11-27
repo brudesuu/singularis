@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singularis - Login</title>
+    <link rel="icon" href="./src/img/logo.svg">
+    <link rel="stylesheet" href="./src/css/init.css">
+</head>
+
+<body>
+    <!--Área Principal-->
+    <main>
+        <!--Formulário de Login-->
+        <form class="form" id="systemLogin">
+            <header class="formHeader">
+                <h2 class="formHeaderTitle">Login no Sistema </h2>
+                <p class="loggin">Faça o login para acessar o sistema</p>
+            </header>
+            <div class="formBox1">
+                <label for="email" class="formLabel1"> Email: <br>
+                    <input class="formInput" type="email" name="email" id="email" placeholder="Seu e-mail:" maxlength="60" required autofocus>
+                </label>
+            </div>
+            <div class="formBox">
+                <label for="password" class="formLabel">
+                    Senha: <br>
+                    <input class="formInput" type="password" name="password" id="password" placeholder="Sua senha" maxlength="20" required>
+                </label>
+            </div>
+            <div class="formBox">
+                <button class="formButtonSubmit" type="submit" title="Clique para efetuar o login">
+                    Logar
+                </button>
+            </div>
+            <div class="formBoxExtra" id="formBoxExtra">
+                <a class="formLinkExtra" href="#">Esqueci a senha</a>
+                <a class="formLinkExtra" href="#">Cadastrar</a>
+            </div>  
+        </form>
+
+    </main>
+
+    
+</body>
+</html>
